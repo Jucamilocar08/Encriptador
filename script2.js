@@ -10,8 +10,6 @@ function btnEncriptar(){
     let valorTextoRegreso = encriptar();
     textoRegreso.style.background = "none";
     textoIngreso.value = "";
-    mensaje1.style.visibility = "none";
-    mensaje2.style.visibility = "none";
 }
 
 function btnDesencriptar(){
@@ -47,5 +45,6 @@ function btnCopiar() {
     var textoAcopiar = document.querySelector("#textoRegreso");
     textoAcopiar.select();
     document.execCommand("copy");
+    textoRegreso.value = "";
 }
 

@@ -16,7 +16,7 @@
         <header>
         <main>
             <section>
-                <textarea type="text" class="textoIngreso" id="textoIngreso" placeholder="Ingrese el texto aqui para encriptar" value="document.getElementById()"></textarea>
+                <textarea type="text" class="textoIngreso" id="textoIngreso" placeholder="Ingrese el texto aqui para encriptar" ></textarea>
                 <div class="piepagina">
                     <img src="bi_exclamation-circle-fill.png" class="exclamacion">
                     <h1 class="informacion"> Letras minúsculas y sin acentos</h1>
@@ -28,9 +28,8 @@
             </section>
             <section>
                 <textarea class="textoRegreso" id="textoRegreso" placeholder="Ingrese el texto aqui para desencriptar" cols="20" rows="10"></textarea>
-                <div class="contenedor">
-                    <h1 class="mensaje1">Ningun mensaje fue encontrado</h1>
-                    <h1 class="mensaje2">Ingresa el texto que seas encriptar o desencriptar</h1>
+               <div class="contenedor">
+                    <p class="mensaje1" id="mensaje1" value="visible" >Ingresa el texto que seas encriptar o desencriptar</p>
                 </div>
                 <div>
                   <button class="copiar" id="copiar" onclick="btnCopiar()" >Copiar</button>
