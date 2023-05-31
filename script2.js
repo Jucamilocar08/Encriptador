@@ -10,6 +10,7 @@ function btnEncriptar(){
     let valorTextoRegreso = encriptar();
     textoRegreso.style.background = "none";
     textoIngreso.value = "";
+    document.getElementById("mensaje1").style.display = "none"
 }
 
 function btnDesencriptar(){

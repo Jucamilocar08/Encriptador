@@ -70,10 +70,6 @@ main{
     padding: 2%;
 }
 
-.contendor{
-    visibility: visible;
-}
-
 .mensaje1{
     position: absolute;
     width: 336px;
@@ -89,23 +85,6 @@ main{
     align-self: stretch;
     flex-grow: 0;
     margin-bottom: 32px;
-    
-}
-
-.mensaje2{
-    position: absolute;
-    width: 336px;
-    height: 48px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    left: 1032px;
-    top: 680px;
-    color: #495057;
-    align-self: stretch;
-    flex-grow: 0;
     
 }
 
@@ -134,7 +113,6 @@ main{
     opacity: 0.8;
     white-space: nowrap;
 }
-
 
 .botones{
     position: absolute;
