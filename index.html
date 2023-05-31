@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" >
+
+    </head >
+    <body>
+        <header>
+            <img class="logo" src="Logo.png" alt="Logo Alura">
+            <h1 class="titulo">Encriptador</h1>
+        <header>
+        <main>
+            <section>
+                <textarea type="text" class="textoIngreso" id="textoIngreso" placeholder="Ingrese el texto aqui" value="document.getElementById()"></textarea>
+                <div class="piepagina">
+                    <img src="bi_exclamation-circle-fill.png" class="exclamacion">
+                    <h1 class="informacion"> Letras minúsculas y sin acentos</h1>
+                </div>
+                <div class="botones">
+                    <button class="encriptar" id="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" id="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea class="textoRegreso" id="textoRegreso" cols="20" rows="10"></textarea>
+                <div>
+                    <h1 class="mensaje1" style="visibility:visible;">Ningun mensaje fue encontrado</h1>
+                    <h1 class="mensaje2" style="visibility:visible ;" >Ingresa el texto que seas encriptar o desencriptar</h1>
+                </div>
+                <div>
+                  <button class="copiar" id="copiar" onclick="btnCopiar()" >Copiar</button>
+                </div>
+            </section>
+            <div>
+                <p class="copy"> &copy Copyright Encriptador - 2023</p>
+            </div>
+        </main>
+    </body>
+</html>
+<script src="script2.js"></script>

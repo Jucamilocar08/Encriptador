@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="indexstyle.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" >
+        <link rel="index.html" href="index.html">
+    </head>
+    <body>
+        <div>
+            <img class="imgizquierda" src="Logo.png">
+            <h1 class="titulo">Encriptador</h1>
+        </div>
+        <main>
+
+            <textarea class="textoingreso" placeholder="Ingrese el texto aqui"></textarea> 
+
+            <div class="cuerpo">
+                <textarea id="desencriptar" class="desencriptar" value=""></textarea>
+            </div>
+
+            <footer>
+                <div class="piepagina">
+                    <img class="exclamacion" src="bi_exclamation-circle-fill.png">
+                    <p class="texclamacion">Letras minúsculas y sin acentos</p>
+                </div>
+                <div class="b">
+                    <button class="enviar" id="Encriptar" onclick="encriptar()"> Encriptar</button>
+                    <button class="recibir" id="Desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+                <div>
+                    <p class="copy"> &copy Copyright Encriptador - 2023</p>
+                </div>
+            </footer>      
+        </main>
+    </body>
+</html>
+
