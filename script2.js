@@ -3,7 +3,6 @@ let textoRegreso = document.querySelector(".textoRegreso")
 
 var valorTextoIngreso = "";
 var valorTextoRegreso = "";
-var textoAcopiar = "";
 var mensaje1 = document.getElementById(".mensaje1")
 var mensaje2 = document.getElementById(".mensaje2")
 
@@ -44,12 +43,9 @@ function desencriptar(){
 
 }
 
-
-
-
-function btncopiar() {
-    var textoAcopiar = document.getElementById(".textoRegreso");
+function btnCopiar() {
+    var textoAcopiar = document.querySelector("#textoRegreso");
     textoAcopiar.select();
-    document.execCommandId("copy");
+    document.execCommand("copy");
 }
 
